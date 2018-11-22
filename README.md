@@ -15,7 +15,7 @@ Then go to the http://localhost:8080 in your browser.  The application uses an e
 ## To run on Cloud Foundry
 
 ```
-$ ./mvnw package
+$ ./mvnw package clean
 $ cf push
 ```
 
